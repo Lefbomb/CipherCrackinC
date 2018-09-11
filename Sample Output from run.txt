@@ -1,0 +1,58 @@
+-bash-4.1$ ./encrypt Sample.txt check.txt
+m|h|k|c|s|z|q|d|a|n|r|f|v|o|p|b|j|w|u|g|t|l|i|x|y|e|
+-bash-4.1$ ./decrypt english_quadgrams.txt  check.txt
+Dictionary loaded with 389373 unique quadgrams.
+Total Count: 4219633664.
+Initial Text:
+ubprs gp ag.osxg gp gds kmg. ds caco'g fppr mg ag, htg mzgsw m vpvsog ds
+
+Total Char = 1365
+
+Current Key:
+Cipher Text:    abcdefghijklmnopqrstuvwxyz
+Plain Text:     dziwsvhcpelfkoaqjumgtyrnbx
+
+Initial Score: -24436.787
+
+Initial Attempt Score: -19004.748
+
+Cracking
+Swapped: a<->o New Max Score: -18640.172
+Swapped: i<->a New Max Score: -18616.521
+Swapped: o<->i New Max Score: -18374.529
+Swapped: a<->o New Max Score: -18298.957
+Swapped: h<->y New Max Score: -18288.639
+Swapped: s<->a New Max Score: -18186.908
+Swapped: i<->s New Max Score: -17585.801
+Swapped: s<->h New Max Score: -16948.686
+Swapped: y<->s New Max Score: -16497.777
+Swapped: p<->y New Max Score: -16445.805
+Swapped: g<->p New Max Score: -16441.322
+Swapped: m<->g New Max Score: -16409.252
+Swapped: p<->m New Max Score: -16390.645
+Swapped: f<->p New Max Score: -16343.438
+Swapped: b<->f New Max Score: -16194.167
+Swapped: m<->b New Max Score: -16080.487
+Swapped: c<->m New Max Score: -16070.757
+Swapped: g<->c New Max Score: -16035.885
+Swapped: y<->g New Max Score: -15584.479
+Swapped: v<->y New Max Score: -15508.194
+Swapped: k<->v New Max Score: -15396.771
+Swapped: w<->k New Max Score: -15108.171
+Swapped: m<->w New Max Score: -14771.188
+Swapped: p<->m New Max Score: -14568.824
+Swapped: r<->s New Max Score: -14397.172
+Swapped: d<->r New Max Score: -13391.767
+Swapped: x<->j New Max Score: -13320.003
+Swapped: z<->x New Max Score: -13232.599
+
+Total Swaps: 28
+Final Score: -13232.599
+Final Key:
+
+Current Key:
+Cipher Text:    abcdefghijklmnopqrstuvwxyz
+Plain Text:     mhkcszqdanrfvopbjwugtlixye
+
+Decoded Text:
+spoke to it.next to the cat. he didn't look at it, but after a moment he
